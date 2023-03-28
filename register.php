@@ -1,5 +1,4 @@
 <?php
-echo "O arquivo PHP foi chamado!";
 $ip_address = $_SERVER['REMOTE_ADDR'];
 $log_file = "logs.txt";
 $log_entry = date('Y-m-d H:i:s') . " - $ip_address\n";
